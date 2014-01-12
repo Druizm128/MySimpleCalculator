@@ -1,0 +1,83 @@
+<DOCTYPE html>
+<html>
+	<head>
+		
+	</head>
+	
+	<body>
+		<script type="text/javascript"  src="mycalculator.js"></script>
+		<form name="Calculator">
+			<table border="4">
+			
+				<!--Top Panel-->			
+				<tr>
+					<td colspan="2" align="center">A Simple JavaScript Calculator<br>
+      					<input type="text" maxlength="40" size="30" name='Display'>
+      				</td>
+				</tr>
+				<!--End Top Panel-->
+				
+						
+				<tr>
+				<td>  <!--Left Panel-->	 
+					<table>
+						<tr>
+							<td><input type="button" value="   7   "   name="seven"  onclick="AddDigit('7')"></td>
+							<td><input type="button" value="   8   "   name="eight"  onclick="AddDigit('8')"></td>
+							<td><input type="button" value="   9   "   name="nine"   onclick="AddDigit('9')"></td>						
+						</tr>
+						<tr>
+							<td><input type="button" value="   4   "   name="four"   onclick="AddDigit('4')"></td>
+							<td><input type="button" value="   5   "   name="five"   onclick="AddDigit('5')"></td>
+							<td><input type="button" value="   6   "   name="six"    onclick="AddDigit('6')"></td>
+						</tr>
+						<tr>
+							<td><input type="button" value="   1   "   name="one"    onclick="AddDigit('1')"></td>
+							<td><input type="button" value="   2   "   name="two"    onclick="AddDigit('2')"></td>
+							<td><input type="button" value="   3   "   name="three"  onclick="AddDigit('3')"></td>						
+						</tr>
+						<tr>
+							<td><input type="button" value="   0   "   name="zero"    onclick="AddDigit('0')" ></td>
+							<td><input type="button" value="   .   "   name="decimal" onclick="Dot()"></td>
+						</tr>
+					</table>
+				</td> <!--End Left Panel-->
+
+							
+				<td>  <!--Right Panel-->
+					<table>
+						<tr>	
+							<td><input type="button" value="   AC   "     name="all clear"      onclick="AllClear()"></td>
+							<td><input type="button" value="   C     "    name="clear"          onclick="Clear()"></td>
+
+						</tr>
+						<tr>
+							<td><input type="button" value="    /    "   name="division"        onclick="Operate('/')"></td>
+							<td><input type="button" value="    x    "   name="multiplication"  onclick="Operate('x')"></td>
+						</tr>
+							<td><input type="button" value="    -    "   name="substraction"    onclick="Operate('-')"></td>
+							<td><input type="button" value="    +    "   name="addition"        onclick="Operate('+')"</td>
+						<tr>
+							<td><input type="button" value="    =    "   name="calculate"       onclick="Calculate()"></td>	
+						</tr>	
+		
+				
+					</table>	 
+				</td> <!--End Right Panel-->
+				</tr>
+			</table> 
+			
+		
+		</form>
+
+
+	</body>
+</html>
+
+
+
+					
+					
+
+
+
